@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import axios from "../axios"; // ✅ custom axios instance with VITE_API_URL
+import axios from "../../axios";
+ // ✅ custom axios instance with VITE_API_URL
 
 const initialState = {
   isAuthenticated: false,
